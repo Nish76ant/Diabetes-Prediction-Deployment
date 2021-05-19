@@ -1,5 +1,6 @@
 # Importing essential libraries
 from flask import Flask, render_template, request
+from sklearn.ensemble import RandomForestClassifier
 import pickle
 import numpy as np
 
